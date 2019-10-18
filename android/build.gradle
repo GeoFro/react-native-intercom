@@ -38,6 +38,8 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
+    // we need to fix the version of the intercom sdk because 5.1.6+ uses a 
+    // version of build tools that is incompatible with our existing code
     implementation 'io.intercom.android:intercom-sdk-base:5.1.5'
 }
 
